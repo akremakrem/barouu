@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="question-frame">
+            <h1 class="question">1. What is your age?</h1>
+            <form>
+                <input type="radio" name="q1" value="Under 18"> <span class="answer">Under 18</span><br>
+                <input type="radio" name="q1" value="18-25"> <span class="answer">18-25</span><br>
+                <input type="radio" name="q1" value="Over 25"> <span class="answer">Over 25</span><br>
+            </form>
+        </div>
+
+        <div class="question-frame">
+            <h1 class="question">2. How would you rate your proficiency in English?</h1>
+            <form>
+                <input type="radio" name="q2" value="Beginner"> <span class="answer">Beginner</span><br>
+                <input type="radio" name="q2" value="Intermediate"> <span class="answer">Intermediate</span><br>
+                <input type="radio" name="q2" value="Advanced"> <span class="answer">Advanced</span><br>
+                <input type="radio" name="q2" value="Fluent"> <span class="answer">Fluent</span><br>
+            </form>
+        </div>
+
+        <button onclick="handleNext(goToLinguistics)">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
